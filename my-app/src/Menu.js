@@ -1,11 +1,10 @@
 import React from 'react';
 import './Menu.css'
-export function Menu() {
+
+export function Menu(props) {
     return (
         <div className="Menu">
-            Hello
-
+            Hello, {props.name}
         </div>
     )
-
 }
